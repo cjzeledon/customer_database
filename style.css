@@ -1,32 +1,49 @@
 body {
-  background-color: lightsalmon;
-  display: inline-block;
-}
-
-div {
-  display: inline-block;
-}
-
-h2{
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.people{
-  width: 900px;
-
-  margin-left: auto;
-  margin-right: auto;
+  background-color: white;
 }
 
 .profile{
-  background-color: white;
-  border: 2px solid black;
-  width: 180px;
+  width: 250px;
   margin: 10px;
   padding: 5px;
+  display: inline-block;
+  text-align: center;
 }
 
-#profile_img{
-  text-align: center;
+img{
+  border-radius: 7px;
+  width: 100%;
+}
+
+p {
+  font-family: arial, sans-serif, serif;
+}
+
+p.fullname {
+  text-transform: uppercase;
+  font-weight: normal;
+  border-bottom: 2px solid #009933;
+  font-size: medium;
+  display: inline;
+}
+
+p.emailaddress{
+  color: #B2BABB;
+  text-transform: uppercase;
+  font-size: small;
+}
+
+p.addressphone{
+  color: #4D5656;
+  font-size: medium;
+  text-transform: capitalize;
+  line-height: 25px;
+}
+
+p.ssn{
+  color: transparent;
+  color: #009933;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  font-size: smaller;
+
 }
